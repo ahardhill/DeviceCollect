@@ -1,0 +1,533 @@
+Android设备
+59EMUO9545S4DQV4
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=13
+Product_Model=22041211AC
+CPU_Brand=null
+CPU_Type=null
+CPU_HZ=2.00GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=null
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@7f560810RAM=7.0G
+Size=1440x3200
+ROM=128.0G
+Device_Type=手机
+Device_Name=rubens
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=92:9e:24:dd:f0:91
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=Redmi
+SN=59EMUO9545S4DQV4
+}
+
+18:06:20.454 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:06:20.459 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:06:20.460 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:06:20.465 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:20.465 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:06:20.471 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:06:20.473 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:59779<->127.0.0.1:8080
+18:06:20.473 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:06:20.474 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:06:20.474 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /api/device/insert HTTP/1.1
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 514
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Encoding: UTF-8
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8080
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:06:20.475 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 514[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:06:20.475 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+18:06:20.476 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"phoneType":0,"productType":null,"productVersion":"13","productModel":"22041211AC","cpuBrand":null,"cpuType":null,"cpuHz":"2.00GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":null,"cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@7f560810","ram":"7.0G","size":"1440x3200","rom":"128.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"rubens","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"92:9e:24:dd:f0:91","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"Redmi","sn":"59EMUO9545S4DQV4"}"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 21 Aug 2023 10:06:25 GMT[\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "2f[\r][\n]"
+18:06:25.256 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:06:25.257 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+18:06:25.258 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+18:06:25.258 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+18:06:25.258 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Mon, 21 Aug 2023 10:06:25 GMT
+18:06:25.260 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:06:25.338 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+18:06:25.339 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+18:06:25.339 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:06:25.339 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+18:06:25.339 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:25.339 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+Android设备
+59EMUO9545S4DQV4
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=13
+Product_Model=22041211AC
+CPU_Brand=null
+CPU_Type=null
+CPU_HZ=2.00GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=null
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@ae3540eRAM=7.0G
+Size=1440x3200
+ROM=128.0G
+Device_Type=手机
+Device_Name=rubens
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=92:9e:24:dd:f0:91
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=Redmi
+SN=59EMUO9545S4DQV4
+}
+
+18:06:36.357 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:06:36.357 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:06:36.357 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:06:36.357 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:36.357 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:06:36.357 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:06:36.358 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:60804<->127.0.0.1:8080
+18:06:36.358 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:06:36.358 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:06:36.358 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /api/device/insert HTTP/1.1
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 513
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Encoding: UTF-8
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: localhost:8080
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:06:36.358 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 513[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Encoding: UTF-8[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+18:06:36.358 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"phoneType":0,"productType":null,"productVersion":"13","productModel":"22041211AC","cpuBrand":null,"cpuType":null,"cpuHz":"2.00GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":null,"cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@ae3540e","ram":"7.0G","size":"1440x3200","rom":"128.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"rubens","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"92:9e:24:dd:f0:91","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"Redmi","sn":"59EMUO9545S4DQV4"}"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Date: Mon, 21 Aug 2023 10:06:36 GMT[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "2f[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:06:36.711 [main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 
+18:06:36.711 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+18:06:36.711 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Transfer-Encoding: chunked
+18:06:36.712 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Date: Mon, 21 Aug 2023 10:06:36 GMT
+18:06:36.712 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:06:36.714 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "0[\r][\n]"
+18:06:36.714 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+18:06:36.714 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:06:36.714 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+18:06:36.714 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:36.714 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+Android设备
+59EMUO9545S4DQV4
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=13
+Product_Model=22041211AC
+CPU_Brand=null
+CPU_Type=null
+CPU_HZ=2.00GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=null
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@457c9034RAM=7.0G
+Size=1440x3200
+ROM=128.0G
+Device_Type=手机
+Device_Name=rubens
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=92:9e:24:dd:f0:91
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=Redmi
+SN=59EMUO9545S4DQV4
+}
+
+18:06:47.733 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:06:47.733 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:06:47.733 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:06:47.733 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:47.733 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:06:47.733 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:06:47.734 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:61718<->127.0.0.1:8080
+18:06:47.734 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:06:47.734 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:06:47.734 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /api/device/insert HTTP/1.1
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 514
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Encoding: UTF-8
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: localhost:8080
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:06:47.734 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 514[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Encoding: UTF-8[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: localhost:8080[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:06:47.734 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+18:06:47.735 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"phoneType":0,"productType":null,"productVersion":"13","productModel":"22041211AC","cpuBrand":null,"cpuType":null,"cpuHz":"2.00GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":null,"cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@457c9034","ram":"7.0G","size":"1440x3200","rom":"128.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"rubens","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"92:9e:24:dd:f0:91","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"Redmi","sn":"59EMUO9545S4DQV4"}"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 [\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Date: Mon, 21 Aug 2023 10:06:47 GMT[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "2f[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:06:47.838 [main] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 
+18:06:47.838 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Type: application/json;charset=UTF-8
+18:06:47.838 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Transfer-Encoding: chunked
+18:06:47.838 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Date: Mon, 21 Aug 2023 10:06:47 GMT
+18:06:47.838 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:06:47.843 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "0[\r][\n]"
+18:06:47.843 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+18:06:47.843 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 2][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:06:47.843 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 0
+18:06:47.843 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:06:47.843 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+Android设备
+5c9b4be3
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=13
+Product_Model=PHM110
+CPU_Brand=Qualcomm
+CPU_Type=SDM778G
+CPU_HZ=1.80GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=Qualcomm Technologies, Inc SDM778G
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@71e9ebaeRAM=7.0G
+Size=1080x2412
+ROM=256.0G
+Device_Type=手机
+Device_Name=PHM110
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=4a:8b:47:74:32:13
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=OPPO
+SN=5c9b4be3
+}
+
+18:07:09.933 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:07:09.933 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:07:09.933 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:07:09.933 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:09.933 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:07:09.934 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:07:09.934 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:63470<->127.0.0.1:8080
+18:07:09.934 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:07:09.934 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:07:09.934 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /api/device/insert HTTP/1.1
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 544
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Encoding: UTF-8
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: localhost:8080
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:07:09.934 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+18:07:09.934 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:07:09.934 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 544[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Encoding: UTF-8[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: localhost:8080[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+18:07:09.935 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"phoneType":0,"productType":null,"productVersion":"13","productModel":"PHM110","cpuBrand":"Qualcomm","cpuType":"SDM778G","cpuHz":"1.80GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":"Qualcomm Technologies, Inc SDM778G","cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@71e9ebae","ram":"7.0G","size":"1080x2412","rom":"256.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"PHM110","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"4a:8b:47:74:32:13","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"OPPO","sn":"5c9b4be3"}"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 [\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Transfer-Encoding: chunked[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Mon, 21 Aug 2023 10:07:09 GMT[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "2f[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:07:09.944 [main] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 
+18:07:09.944 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json;charset=UTF-8
+18:07:09.944 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Transfer-Encoding: chunked
+18:07:09.944 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Mon, 21 Aug 2023 10:07:09 GMT
+18:07:09.945 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:07:09.945 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "0[\r][\n]"
+18:07:09.945 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+18:07:09.945 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 3][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:07:09.945 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+18:07:09.945 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:09.945 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+Android设备
+5c9b4be3
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=13
+Product_Model=PHM110
+CPU_Brand=Qualcomm
+CPU_Type=SDM778G
+CPU_HZ=1.80GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=Qualcomm Technologies, Inc SDM778G
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@42530531RAM=7.0G
+Size=1080x2412
+ROM=256.0G
+Device_Type=手机
+Device_Name=PHM110
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=4a:8b:47:74:32:13
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=OPPO
+SN=5c9b4be3
+}
+
+Android设备
+191QAEYGAPWLX
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=11
+Product_Model=MEIZU 18 Pro
+CPU_Brand=null
+CPU_Type=null
+CPU_HZ=1.80GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=null
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@5a3bc7edRAM=7.0G
+Size=1080x2400
+ROM=128.0G
+Device_Type=手机
+Device_Name=meizu_18Pro_CN
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=02:bd:d6:73:79:e6
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=meizu
+SN=191QAEYGAPWLX
+}
+
+18:07:20.971 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:07:20.971 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:07:20.971 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:07:20.971 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:20.971 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:07:20.971 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:07:20.972 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64296<->127.0.0.1:8080
+18:07:20.972 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:07:20.972 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:07:20.972 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /api/device/insert HTTP/1.1
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 544
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Encoding: UTF-8
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: localhost:8080
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:07:20.972 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 544[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Encoding: UTF-8[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: localhost:8080[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+18:07:20.972 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"phoneType":0,"productType":null,"productVersion":"13","productModel":"PHM110","cpuBrand":"Qualcomm","cpuType":"SDM778G","cpuHz":"1.80GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":"Qualcomm Technologies, Inc SDM778G","cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@42530531","ram":"7.0G","size":"1080x2412","rom":"256.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"PHM110","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"4a:8b:47:74:32:13","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"OPPO","sn":"5c9b4be3"}"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 [\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Transfer-Encoding: chunked[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Mon, 21 Aug 2023 10:07:20 GMT[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "2f[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:07:20.980 [main] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 
+18:07:20.980 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type: application/json;charset=UTF-8
+18:07:20.980 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Transfer-Encoding: chunked
+18:07:20.980 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Mon, 21 Aug 2023 10:07:20 GMT
+18:07:20.980 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:07:20.981 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "0[\r][\n]"
+18:07:20.981 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+18:07:20.981 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 4][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:07:20.981 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+18:07:20.981 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:20.981 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+18:07:20.983 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:07:20.983 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:07:20.983 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:07:20.983 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 5][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:20.983 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:07:20.983 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:07:20.983 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64298<->127.0.0.1:8080
+18:07:20.983 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:07:20.983 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:07:20.984 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> POST /api/device/insert HTTP/1.1
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Content-Type: application/json
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Content-Length: 521
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Content-Encoding: UTF-8
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Host: localhost:8080
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Connection: Keep-Alive
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:07:20.984 [main] DEBUG org.apache.http.headers - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Content-Type: application/json[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Content-Length: 521[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Content-Encoding: UTF-8[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Host: localhost:8080[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "[\r][\n]"
+18:07:20.984 [main] DEBUG org.apache.http.wire - http-outgoing-5 >> "{"phoneType":0,"productType":null,"productVersion":"11","productModel":"MEIZU 18 Pro","cpuBrand":null,"cpuType":null,"cpuHz":"1.80GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":null,"cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@5a3bc7ed","ram":"7.0G","size":"1080x2400","rom":"128.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"meizu_18Pro_CN","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"02:bd:d6:73:79:e6","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"meizu","sn":"191QAEYGAPWLX"}"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "HTTP/1.1 200 [\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "Transfer-Encoding: chunked[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "Date: Mon, 21 Aug 2023 10:07:20 GMT[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "2f[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:07:20.992 [main] DEBUG org.apache.http.headers - http-outgoing-5 << HTTP/1.1 200 
+18:07:20.992 [main] DEBUG org.apache.http.headers - http-outgoing-5 << Content-Type: application/json;charset=UTF-8
+18:07:20.992 [main] DEBUG org.apache.http.headers - http-outgoing-5 << Transfer-Encoding: chunked
+18:07:20.992 [main] DEBUG org.apache.http.headers - http-outgoing-5 << Date: Mon, 21 Aug 2023 10:07:20 GMT
+18:07:20.993 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:07:20.993 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "0[\r][\n]"
+18:07:20.993 [main] DEBUG org.apache.http.wire - http-outgoing-5 << "[\r][\n]"
+18:07:20.993 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 5][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:07:20.993 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-5: set socket timeout to 0
+18:07:20.993 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 5][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:20.993 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+Android设备
+191QAEYGAPWLX
+Phone{Phone_Type=0
+Product_Type=null
+Product_Version=11
+Product_Model=MEIZU 18 Pro
+CPU_Brand=null
+CPU_Type=null
+CPU_HZ=1.80GHz
+CPU_Core=8核
+CPU_Abi=arm64-v8a
+CPU_HardWare=null
+CPU_Abi_More=null
+Abilist_Str=[Ljava.lang.String;@5ef5c734RAM=7.0G
+Size=1080x2400
+ROM=128.0G
+Device_Type=手机
+Device_Name=meizu_18Pro_CN
+GPU_Brand=null
+GPU_Render=null
+GPU_Version=null
+MAC=02:bd:d6:73:79:e6
+UDID=null
+NetFormat=null
+Full_Screen=是
+Device_Brand=meizu
+SN=191QAEYGAPWLX
+}
+
+18:07:32.032 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+18:07:32.032 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+18:07:32.032 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+18:07:32.032 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 6][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:32.032 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+18:07:32.032 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+18:07:32.032 [main] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:65222<->127.0.0.1:8080
+18:07:32.032 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /api/device/insert HTTP/1.1
+18:07:32.032 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+18:07:32.032 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> POST /api/device/insert HTTP/1.1
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Content-Type: application/json
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Content-Length: 521
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Content-Encoding: UTF-8
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Host: localhost:8080
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Connection: Keep-Alive
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+18:07:32.033 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "POST /api/device/insert HTTP/1.1[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Content-Type: application/json[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Content-Length: 521[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Content-Encoding: UTF-8[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Host: localhost:8080[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "[\r][\n]"
+18:07:32.033 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "{"phoneType":0,"productType":null,"productVersion":"11","productModel":"MEIZU 18 Pro","cpuBrand":null,"cpuType":null,"cpuHz":"1.80GHz","cpuCore":"8[0xe6][0xa0][0xb8]","cpuAbi":"arm64-v8a","cpuHardWare":null,"cpuAbiMore":null,"abilistStr":"[Ljava.lang.String;@5ef5c734","ram":"7.0G","size":"1080x2400","rom":"128.0G","deviceType":"[0xe6][0x89][0x8b][0xe6][0x9c][0xba]","deviceName":"meizu_18Pro_CN","gpuBrand":null,"gpuRender":null,"gpuVersion":null,"mac":"02:bd:d6:73:79:e6","udid":null,"netFormat":null,"fullScreen":"[0xe6][0x98][0xaf]","deviceBrand":"meizu","sn":"191QAEYGAPWLX"}"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "HTTP/1.1 200 [\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Transfer-Encoding: chunked[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Date: Mon, 21 Aug 2023 10:07:32 GMT[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "2f[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "{"code":0,"result":"[0xe6][0x8f][0x92][0xe5][0x85][0xa5][0xe6][0x88][0x90][0xe5][0x8a][0x9f]","message":""}[\r][\n]"
+18:07:32.042 [main] DEBUG org.apache.http.headers - http-outgoing-6 << HTTP/1.1 200 
+18:07:32.043 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Type: application/json;charset=UTF-8
+18:07:32.043 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Transfer-Encoding: chunked
+18:07:32.043 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Date: Mon, 21 Aug 2023 10:07:32 GMT
+18:07:32.043 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+18:07:32.043 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "0[\r][\n]"
+18:07:32.043 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+18:07:32.043 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 6][route: {}->http://localhost:8080] can be kept alive indefinitely
+18:07:32.043 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-6: set socket timeout to 0
+18:07:32.043 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 6][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+18:07:32.043 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+response: null
+^C
